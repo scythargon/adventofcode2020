@@ -1,3 +1,7 @@
+#!/usr/bin/env -S python -W ignore
+
+# https://adventofcode.com/2020/day/1
+
 report_str = """1645
 1995
 1658
@@ -207,7 +211,7 @@ for comb in combinations(report, 2):
     s = sum(comb)
     a, b = comb
     if s == 2020:
-        print(a,b,a*b)
+        print(a, b, a * b)
 
 for comb in combinations(report, 3):
     s = sum(comb)

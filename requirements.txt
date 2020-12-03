@@ -1,0 +1,7 @@
+black==18.6b3
+pre-commit==2.0.0
+
+flake8
+flake8-commas
+flake8-bugbear
+flake8-string-format
