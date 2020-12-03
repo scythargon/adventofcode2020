@@ -7,7 +7,8 @@ def get_input(filename):
         return le_file.read()
 
 
-report_str = get_input(f'{os.path.dirname(__file__)}/input.txt')
+input_file = f'{os.path.dirname(os.path.abspath(__file__))}/input.txt'
+report_str = get_input(f'{input_file}/input.txt')
 
 report = [int(r) for r in report_str.split()]
 

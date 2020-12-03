@@ -8,7 +8,7 @@ def get_input(filename):
         return le_file.read()
 
 
-input_file = f'{os.path.dirname(__file__)}/input.txt'
+input_file = f'{os.path.dirname(os.path.abspath(__file__))}/input.txt'
 input_data = get_input(input_file).split('\n')
 
 correct_amount = 0
